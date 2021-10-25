@@ -1,0 +1,82 @@
+body {
+    background-color: #eeeaea;
+}
+
+h1,
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #284B63;
+    color: #fff;
+    border-radius: 4%;
+}
+
+.input>button {
+    margin-left: 10px;
+}
+
+.input>* {
+    padding: 10px;
+}
+
+.output {
+    margin: auto;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.box {
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+    border: 3px solid #61b0b4;
+    border-radius: 1%;
+}
+
+.box:hover {
+    background-color: #fff;
+}
+
+.box>h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.elTitle {
+    text-decoration: none;
+    color: #353535;
+}
+
+.elTitle:hover {
+    cursor: pointer;
+}
+
+.elTitle:visited {
+    color: #61b0b4;
+}
+
+.box>div {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.moreDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.moreDiv>button {
+    padding: 10px;
+}
+
+.moreLink {
+    text-decoration: none;
+    color: #fff;
+}
